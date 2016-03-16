@@ -1,0 +1,13 @@
+<application>
+  <component name="ScratchConfig">
+    <option name="defaultScratchMeaning" value="TOPMOST" />
+    <option name="fullScratchNamesOrdered">
+      <list>
+        <option value="scratch1.txt" />
+        <option value="scratch.txt" />
+      </list>
+    </option>
+    <option name="lastOpenedScratch" value="scratch2.txt" />
+    <option name="needMigration" value="false" />
+  </component>
+</application>
