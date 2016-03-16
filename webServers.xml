@@ -1,25 +1,14 @@
 <application>
   <component name="WebServers">
     <option name="servers">
-      <webServer id="e8c82123-82b2-45c1-8b13-3e905dbaddf3" name="360parent" url="http://360parent">
+      <webServer id="59535e53-26de-424d-90a1-6577316a466c" name="MAMP Apache" url="http://localhost">
+        <fileTransfer mountedRoot="$USER_HOME$/Sites" accessType="MOUNT" />
+      </webServer>
+      <webServer id="77e89349-40bb-4ad3-8ae6-8b6f5f45c47b" name="MAMP Apache Sourcetoad" url="http://localhostwork">
+        <fileTransfer mountedRoot="/Volumes/My Passport for Mac/SourceToad/Sites" accessType="MOUNT" />
+      </webServer>
+      <webServer id="d431a348-2014-4121-90f5-ccba5f43fbf7" name="360Parent" url="http://360parent">
         <fileTransfer accessType="LOCAL" />
-      </webServer>
-      <webServer id="3ce7077f-5eaa-4ff5-8d29-54443aa1d776" name="Office Server" url="http://172.16.50.150">
-        <fileTransfer host="172.16.50.150" port="22" rootFolder="/var/www/parent360_ship/deployment" accessType="SFTP" password="dfe4df93dfeddf93dfcfdfc3dfc6dfe9dffddf98dfe0dfc9" username="360_sites">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" />
-          </advancedOptions>
-        </fileTransfer>
-      </webServer>
-      <webServer id="b0e01ef7-c028-4b9d-b752-f3ac08c2089c" name="scs-tours-yii" url="http://scs-tours-yii">
-        <fileTransfer accessType="LOCAL" />
-      </webServer>
-      <webServer id="43a27c89-ad07-48f9-8f3c-3aaedb64f60e" name="Office Server - sans ioncube" url="http://172.16.50.150">
-        <fileTransfer host="172.16.50.150" port="22" rootFolder="/var/www/parent360_ship_clean/" accessType="SFTP" password="dfe4df93dfeddf93dfcfdfc3dfc6dfe9dffddf98dfe0dfc9" username="360_sites">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" />
-          </advancedOptions>
-        </fileTransfer>
       </webServer>
     </option>
   </component>
