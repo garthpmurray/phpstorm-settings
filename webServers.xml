@@ -10,6 +10,9 @@
       <webServer id="d431a348-2014-4121-90f5-ccba5f43fbf7" name="360Parent" url="http://360parent">
         <fileTransfer accessType="LOCAL" />
       </webServer>
+      <webServer id="6e359b2f-63a6-4701-86f3-086e77083bd9" name="yii-starter-kit" url="http://yii-starter-kit/">
+        <fileTransfer accessType="LOCAL" />
+      </webServer>
     </option>
   </component>
 </application>
