@@ -9,9 +9,11 @@
         <option value="scratch6.txt" />
         <option value="scratch7.txt" />
         <option value="scratch9.txt" />
+        <option value="systemVariables.txt" />
+        <option value="db.txt" />
       </list>
     </option>
-    <option name="lastOpenedScratch" value="scratch8.txt" />
+    <option name="lastOpenedScratch" value="systemVariables.txt" />
     <option name="needMigration" value="false" />
   </component>
 </application>
