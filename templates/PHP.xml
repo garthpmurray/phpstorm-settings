@@ -5,4 +5,10 @@
       <option name="PHP" value="true" />
     </context>
   </template>
+  <template name="tryCatch" value="try {&#10;    $date$&#10;} catch (\Exception $e) {&#10;    throw new Exception($e);&#10;}" description="Inserts a try catch exception" toReformat="true" toShortenFQNames="true">
+    <variable name="date" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
 </templateSet>
