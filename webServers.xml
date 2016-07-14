@@ -13,6 +13,9 @@
       <webServer id="6e359b2f-63a6-4701-86f3-086e77083bd9" name="yii-starter-kit" url="http://yii-starter-kit/">
         <fileTransfer accessType="LOCAL" />
       </webServer>
+      <webServer id="4bf10c4b-b6af-4960-b07d-a3838f73711b" name="Viking Hotels" url="http://vikinghotels">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
     </option>
   </component>
 </application>
