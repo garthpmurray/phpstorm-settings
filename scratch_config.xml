@@ -8,9 +8,13 @@
         <option value="scratch2.txt" />
         <option value="scratch3.txt" />
         <option value="scratch4.txt" />
+        <option value="scratch5.txt" />
+        <option value="scratch6.txt" />
+        <option value="scratch7.txt" />
+        <option value="scratch9.txt" />
       </list>
     </option>
-    <option name="lastOpenedScratch" value="scratch4.txt" />
+    <option name="lastOpenedScratch" value="scratch8.txt" />
     <option name="needMigration" value="false" />
   </component>
 </application>
