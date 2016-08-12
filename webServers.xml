@@ -1,20 +1,11 @@
 <application>
   <component name="WebServers">
     <option name="servers">
-      <webServer id="59535e53-26de-424d-90a1-6577316a466c" name="MAMP Apache" url="http://localhost">
-        <fileTransfer mountedRoot="$USER_HOME$/Sites" accessType="MOUNT" />
-      </webServer>
-      <webServer id="77e89349-40bb-4ad3-8ae6-8b6f5f45c47b" name="MAMP Apache Sourcetoad" url="http://localhostwork">
-        <fileTransfer mountedRoot="/Volumes/My Passport for Mac/SourceToad/Sites" accessType="MOUNT" />
-      </webServer>
-      <webServer id="d431a348-2014-4121-90f5-ccba5f43fbf7" name="360Parent" url="http://360parent">
+      <webServer id="df95ed2b-dfcd-482c-95a3-74d5b9e304b4" name="Viking Hotels" url="http://viking-hotels">
         <fileTransfer accessType="LOCAL" />
       </webServer>
-      <webServer id="6e359b2f-63a6-4701-86f3-086e77083bd9" name="yii-starter-kit" url="http://yii-starter-kit/">
+      <webServer id="4bf10c4b-b6af-4960-b07d-a3838f73711b" name="Viking Hotels (1)" url="http://vikinghotels">
         <fileTransfer accessType="LOCAL" />
-      </webServer>
-      <webServer id="4bf10c4b-b6af-4960-b07d-a3838f73711b" name="Viking Hotels" url="http://vikinghotels">
-        <fileTransfer port="0" accessType="LOCAL" />
       </webServer>
     </option>
   </component>
