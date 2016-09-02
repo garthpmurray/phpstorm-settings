@@ -11,9 +11,10 @@
         <option value="scratch9.txt" />
         <option value="db.txt" />
         <option value="scratch2.txt" />
+        <option value="scratch3.php" />
       </list>
     </option>
-    <option name="lastOpenedScratch" value="scratch2.txt" />
+    <option name="lastOpenedScratch" value="scratch3.php" />
     <option name="needMigration" value="false" />
   </component>
 </application>
