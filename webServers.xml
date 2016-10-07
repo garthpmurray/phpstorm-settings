@@ -10,6 +10,9 @@
       <webServer id="d1075743-499f-4db0-873e-f1bf31a742d3" name="BigCom" url="http://localhost">
         <fileTransfer port="0" accessType="LOCAL" />
       </webServer>
+      <webServer id="4b312c11-17a7-498a-ab7c-957bb38bc5b4" name="360parent-rebuild" url="http://360parent-rebuild">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
     </option>
   </component>
 </application>
