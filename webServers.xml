@@ -16,6 +16,9 @@
       <webServer id="6a5d729f-607e-45f0-8a21-809526ae6eb6" name="dev-ops" url="http://dev-ops">
         <fileTransfer port="0" accessType="LOCAL" />
       </webServer>
+      <webServer id="26b2795a-9139-4c66-b7e3-032c524764eb" name="bootstrap.docker" url="http://bootstrap.docker">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
     </option>
   </component>
 </application>
