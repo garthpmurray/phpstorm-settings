@@ -19,6 +19,9 @@
       <webServer id="26b2795a-9139-4c66-b7e3-032c524764eb" name="bootstrap.docker" url="http://bootstrap.docker">
         <fileTransfer port="0" accessType="LOCAL" />
       </webServer>
+      <webServer id="3b0641ab-926d-454b-81c3-9cd44d4bc024" name="core.docker" url="http://core.docker">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
     </option>
   </component>
 </application>
