@@ -20,6 +20,8 @@
     <option name="SPACES_AROUND_VAR_WITHIN_BRACKETS" value="true" />
     <option name="ALIGN_CLASS_CONSTANTS" value="true" />
     <option name="SPACE_BETWEEN_TERNARY_QUEST_AND_COLON" value="true" />
+    <option name="FORCE_SHORT_DECLARATION_ARRAY_STYLE" value="true" />
+    <option name="PHPDOC_USE_FQCN" value="true" />
   </PHPCodeStyleSettings>
   <XML>
     <option name="XML_LEGACY_SETTINGS_IMPORTED" value="true" />
@@ -34,6 +36,7 @@
     <option name="METHOD_BRACE_STYLE" value="1" />
     <option name="ALIGN_MULTILINE_ARRAY_INITIALIZER_EXPRESSION" value="true" />
     <option name="ALIGN_GROUP_FIELD_DECLARATIONS" value="true" />
+    <option name="SPACE_BEFORE_METHOD_PARENTHESES" value="true" />
     <option name="ARRAY_INITIALIZER_LBRACE_ON_NEXT_LINE" value="true" />
     <option name="ARRAY_INITIALIZER_RBRACE_ON_NEXT_LINE" value="true" />
     <indentOptions>
