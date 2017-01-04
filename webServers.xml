@@ -13,6 +13,9 @@
       <webServer id="4b312c11-17a7-498a-ab7c-957bb38bc5b4" name="360parent-rebuild" url="http://360parent-rebuild">
         <fileTransfer port="0" accessType="LOCAL" />
       </webServer>
+      <webServer id="f2c740d4-1770-4bcc-a0b2-ee7e227abc15" name="core.docker" url="http://core.docker">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
     </option>
   </component>
 </application>
