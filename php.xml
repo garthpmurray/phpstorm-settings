@@ -4,6 +4,11 @@
       <MessDetectorConfiguration />
     </phpmd_settings>
   </component>
+  <component name="PhpCodeSniffer">
+    <phpcs_settings>
+      <PhpCSConfiguration tool_path="/Volumes/My Passport for Mac/SourceToad/Sites/_Managment/Core/vendor/squizlabs/php_codesniffer/scripts/phpcs" />
+    </phpcs_settings>
+  </component>
   <component name="PhpInterpreters">
     <interpreters>
       <interpreter home="/Applications/MAMP/bin/php/php5.6.10/bin/php" id="3df19666-b1a8-4a02-b86b-27e911e88590" name="MampPhp" debugger_id="php.debugger.XDebug" />
