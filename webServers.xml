@@ -22,6 +22,9 @@
       <webServer id="3b0641ab-926d-454b-81c3-9cd44d4bc024" name="core.docker" url="http://core.docker">
         <fileTransfer port="0" accessType="LOCAL" />
       </webServer>
+      <webServer id="e4454a85-dac6-443d-9ae7-f2621053462b" name="core2" url="http://core2.docker">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
     </option>
   </component>
 </application>
