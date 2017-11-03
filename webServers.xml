@@ -25,6 +25,9 @@
       <webServer id="e4454a85-dac6-443d-9ae7-f2621053462b" name="core2" url="http://core2.docker">
         <fileTransfer port="0" accessType="LOCAL" />
       </webServer>
+      <webServer id="6b6fa1b6-4974-4978-9c07-d2250ec0d0c4" name="http://satellite.docker/" url="http://satellite.docker/">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
     </option>
   </component>
 </application>
