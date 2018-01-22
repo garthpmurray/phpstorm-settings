@@ -1,6 +1,14 @@
 <application>
   <component name="WebServers">
     <option name="servers">
+      <webServer id="695dcd05-d649-4237-8934-6d6ff1bc120b" name="VikingStar" url="http://10.10.8.60">
+        <fileTransfer host="10.10.8.60" port="22" rootFolder="/var/www/" accessType="SFTP" username="360_sites" password="dfe4df93dfeddf93dfcfdfc3dfc6dfe9dffddf98dfe0dfc9">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
       <webServer id="df95ed2b-dfcd-482c-95a3-74d5b9e304b4" name="Viking Hotels" url="http://viking-hotels">
         <fileTransfer accessType="LOCAL" />
       </webServer>
@@ -23,6 +31,9 @@
         <fileTransfer port="0" accessType="LOCAL" />
       </webServer>
       <webServer id="e4454a85-dac6-443d-9ae7-f2621053462b" name="core2" url="http://core2.docker">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
+      <webServer id="6b6fa1b6-4974-4978-9c07-d2250ec0d0c4" name="http://satellite.docker/" url="http://satellite.docker/">
         <fileTransfer port="0" accessType="LOCAL" />
       </webServer>
     </option>
