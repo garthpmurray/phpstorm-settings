@@ -18,6 +18,7 @@
         <option value="buffer2" />
         <option value="buffer3" />
         <option value="buffer4" />
+        <option value="buffer5" />
       </list>
     </option>
     <option name="scratchesFolderPath" value="$APPLICATION_CONFIG_DIR$/scratches" />
