@@ -1,6 +1,30 @@
 <application>
   <component name="WebServers">
     <option name="servers">
+      <webServer id="5431aea5-5c81-4b9e-b674-44f9ef4b5c14" name="VikingSea" url="http://10.11.64.222">
+        <fileTransfer host="10.11.64.222" port="22" privateKey="/Volumes/My Passport for Mac/SourceToad/Production/RiverShipDeployment/ssh/360sites.pem" rootFolder="/var/www/parent360_ship/" accessType="SFTP" keyPair="true" username="360_sites">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="0b49ee78-7a51-4540-897b-cd0fbb42cf87" name="VikingSky" url="http://10.12.64.224">
+        <fileTransfer host="10.12.64.224" port="22" privateKey="/Volumes/My Passport for Mac/SourceToad/Production/RiverShipDeployment/ssh/360sites.pem" rootFolder="/var/www/" accessType="SFTP" keyPair="true" username="360_sites">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="c21616ed-a3c1-4629-8d9f-7baf32c35382" name="VikingSun" url="http://10.13.64.224">
+        <fileTransfer host="10.13.64.224" port="22" rootFolder="/var/www/" accessType="SFTP" username="360_sites" password="dfe4df93dfeddf93dfcfdfc3dfc6dfe9dffddf98dfe0dfc9">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
       <webServer id="695dcd05-d649-4237-8934-6d6ff1bc120b" name="VikingStar" url="http://10.10.8.60">
         <fileTransfer host="10.10.8.60" port="22" rootFolder="/var/www/" accessType="SFTP" username="360_sites" password="dfe4df93dfeddf93dfcfdfc3dfc6dfe9dffddf98dfe0dfc9">
           <advancedOptions>
