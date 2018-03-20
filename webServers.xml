@@ -68,6 +68,9 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
+      <webServer id="ecce6239-bc53-4be7-b9ab-842f36eae7a0" name="genome.docker" url="http://genome.docker">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
     </option>
   </component>
 </application>
