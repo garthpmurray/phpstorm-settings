@@ -36,6 +36,12 @@
       <webServer id="6b6fa1b6-4974-4978-9c07-d2250ec0d0c4" name="http://satellite.docker/" url="http://satellite.docker/">
         <fileTransfer port="0" accessType="LOCAL" />
       </webServer>
+      <webServer id="2858b114-7899-4383-93a0-48d3302c3a1c" name="agile-class" url="http://agile-class">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
+      <webServer id="434dfcc9-2b1b-4e22-8b61-21ea10ce480d" name="agile-class.docker" url="http://agile-class.docker">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
     </option>
   </component>
 </application>
