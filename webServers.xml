@@ -71,6 +71,9 @@
       <webServer id="ecce6239-bc53-4be7-b9ab-842f36eae7a0" name="genome.docker" url="http://genome.docker">
         <fileTransfer port="0" accessType="LOCAL" />
       </webServer>
+      <webServer id="4994dd5b-e1d6-4dfa-bf1d-e9ded3ba85df" name="claravel.docker" url="http://claravel.docker">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
     </option>
   </component>
 </application>
