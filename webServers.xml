@@ -1,6 +1,30 @@
 <application>
   <component name="WebServers">
     <option name="servers">
+      <webServer id="5431aea5-5c81-4b9e-b674-44f9ef4b5c14" name="VikingSea" url="http://10.11.64.222">
+        <fileTransfer host="10.11.64.222" port="22" privateKey="/Volumes/My Passport for Mac/SourceToad/Production/RiverShipDeployment/ssh/360sites.pem" rootFolder="/var/www/parent360_ship/" accessType="SFTP" keyPair="true" username="360_sites">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="0b49ee78-7a51-4540-897b-cd0fbb42cf87" name="VikingSky" url="http://10.12.64.224">
+        <fileTransfer host="10.12.64.224" port="22" privateKey="/Volumes/My Passport for Mac/SourceToad/Production/RiverShipDeployment/ssh/360sites.pem" rootFolder="/var/www/" accessType="SFTP" keyPair="true" username="360_sites">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="c21616ed-a3c1-4629-8d9f-7baf32c35382" name="VikingSun" url="http://10.13.64.224">
+        <fileTransfer host="10.13.64.224" port="22" rootFolder="/var/www/" accessType="SFTP" username="360_sites" password="dfe4df93dfeddf93dfcfdfc3dfc6dfe9dffddf98dfe0dfc9">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
       <webServer id="695dcd05-d649-4237-8934-6d6ff1bc120b" name="VikingStar" url="http://10.10.8.60">
         <fileTransfer host="10.10.8.60" port="22" rootFolder="/var/www/" accessType="SFTP" username="360_sites" password="dfe4df93dfeddf93dfcfdfc3dfc6dfe9dffddf98dfe0dfc9">
           <advancedOptions>
@@ -36,11 +60,13 @@
       <webServer id="6b6fa1b6-4974-4978-9c07-d2250ec0d0c4" name="http://satellite.docker/" url="http://satellite.docker/">
         <fileTransfer port="0" accessType="LOCAL" />
       </webServer>
-      <webServer id="2858b114-7899-4383-93a0-48d3302c3a1c" name="agile-class" url="http://agile-class">
-        <fileTransfer port="0" accessType="LOCAL" />
-      </webServer>
-      <webServer id="434dfcc9-2b1b-4e22-8b61-21ea10ce480d" name="agile-class.docker" url="http://agile-class.docker">
-        <fileTransfer port="0" accessType="LOCAL" />
+      <webServer id="8b0efd47-36ec-49ec-bd6d-3d2a4752b4b0" name="VikingOrion" url="http://10.14.8.60">
+        <fileTransfer host="10.14.8.60" port="22" rootFolder="/var/www/" accessType="SFTP" username="360_sites">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
       </webServer>
     </option>
   </component>
