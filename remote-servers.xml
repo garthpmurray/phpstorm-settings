@@ -2,7 +2,28 @@
   <component name="RemoteServers">
     <remote-server name="Docker" type="docker">
       <configuration>
-        <option name="certificatesPath" value="$USER_HOME$/.docker/machine/machines/default" />
+        <option name="apiUrl" value="unix:///var/run/docker.sock" />
+        <option name="certificatesPath" />
+        <option name="pathMappings">
+          <list>
+            <DockerPathMappingImpl>
+              <option name="localPath" value="/Users" />
+              <option name="virtualMachinePath" value="/Users" />
+            </DockerPathMappingImpl>
+            <DockerPathMappingImpl>
+              <option name="localPath" value="/Volumes" />
+              <option name="virtualMachinePath" value="/Volumes" />
+            </DockerPathMappingImpl>
+            <DockerPathMappingImpl>
+              <option name="localPath" value="/tmp" />
+              <option name="virtualMachinePath" value="/tmp" />
+            </DockerPathMappingImpl>
+            <DockerPathMappingImpl>
+              <option name="localPath" value="/private" />
+              <option name="virtualMachinePath" value="/private" />
+            </DockerPathMappingImpl>
+          </list>
+        </option>
       </configuration>
     </remote-server>
   </component>
