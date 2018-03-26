@@ -1,4 +1,7 @@
 <keymap version="1" name="Default copy" parent="Mac OS X 10.5+">
+  <action id="PhpListenDebugAction">
+    <keyboard-shortcut first-keystroke="ctrl open_bracket" />
+  </action>
   <action id="SplitVertically">
     <keyboard-shortcut first-keystroke="ctrl meta alt v" />
   </action>
