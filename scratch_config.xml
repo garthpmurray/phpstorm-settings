@@ -19,13 +19,13 @@
         <option value="buffer1.php" />
         <option value="buffer1.txt" />
         <option value="buffer2.txt" />
+        <option value="buffer4.md" />
+        <option value="buffer3.txt" />
         <option value="buffer1" />
         <option value="buffer2" />
         <option value="buffer3" />
         <option value="buffer4" />
         <option value="buffer5" />
-        <option value="buffer4.md" />
-        <option value="buffer3.txt" />
       </list>
     </option>
     <option name="lastOpenedScratch" value="buffer1.txt" />
