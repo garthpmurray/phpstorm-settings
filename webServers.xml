@@ -74,6 +74,9 @@
       <webServer id="4994dd5b-e1d6-4dfa-bf1d-e9ded3ba85df" name="claravel.docker" url="http://claravel.docker">
         <fileTransfer port="0" accessType="LOCAL" />
       </webServer>
+      <webServer id="05f438b2-b3db-44fd-87ff-55745b36b8bb" name="advisorsacademy" url="http://localhost">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
     </option>
   </component>
 </application>
