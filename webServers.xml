@@ -80,6 +80,9 @@
       <webServer id="02c81268-6648-4f12-b946-df4c43e5c4b0" name="metricslegacy" url="http://metricslegacy">
         <fileTransfer port="0" accessType="LOCAL" />
       </webServer>
+      <webServer id="7438a717-9bd3-41e9-b575-5cda5145abf0" name="SoloClientPortal" url="http://soloclientportal/">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
     </option>
   </component>
 </application>
