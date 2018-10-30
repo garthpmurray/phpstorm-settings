@@ -86,6 +86,9 @@
       <webServer id="1e2f72a9-a63c-42b0-9b8c-41291bc94c08" name="nmeda" url="http://nmeda">
         <fileTransfer port="0" accessType="LOCAL" />
       </webServer>
+      <webServer id="478cbb36-c754-45b2-a5a0-7f994b2e65b6" name="nmedaportal" url="http://nmedaportal">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
     </option>
   </component>
 </application>
