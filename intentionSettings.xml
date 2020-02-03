@@ -1,8 +1,0 @@
-<application>
-  <component name="IntentionManagerSettings">
-    <ignoreAction name="CSS/Convert color to gray" />
-    <ignoreAction name="CSS/Create Selector" />
-    <ignoreAction name="CSS/Expand CSS shorthand property" />
-    <ignoreAction name="CSS/Extract image" />
-  </component>
-</application>
