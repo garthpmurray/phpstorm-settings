@@ -5,6 +5,7 @@
       <mapping ext="blade" type="PHP" />
       <mapping pattern="xdebug_log" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
+      <mapping ext="cnf" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
