@@ -4,6 +4,7 @@
       <mapping pattern="show-raid-types" type="Blade" />
       <mapping ext="blade" type="PHP" />
       <mapping pattern="xdebug_log" type="PLAIN_TEXT" />
+      <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
