@@ -1,6 +1,22 @@
 <application>
   <component name="WebServers">
     <option name="servers">
+      <webServer id="d9317ba4-40f7-485b-b935-a466e47e7841" name="BridgeSourceAWS" url="http://18.191.11.101">
+        <fileTransfer host="18.191.11.101" port="22" privateKey="$USER_HOME$/Sites/GRS/Security/grs.pem" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="db9cd404-ff93-41ec-98fa-a8b1c2ed7b6e" name="ERMSBridgeAWS" url="http://18.222.135.39">
+        <fileTransfer host="18.222.135.39" port="22" privateKey="$USER_HOME$/Sites/GRS/Security/bridge.q418.pem" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
       <webServer id="5431aea5-5c81-4b9e-b674-44f9ef4b5c14" name="VikingSea" url="http://10.11.64.222">
         <fileTransfer host="10.11.64.222" port="22" privateKey="/Volumes/My Passport for Mac/SourceToad/Production/RiverShipDeployment/ssh/360sites.pem" rootFolder="/var/www/parent360_ship/" accessType="SFTP" keyPair="true" username="360_sites">
           <advancedOptions>
@@ -88,6 +104,14 @@
       </webServer>
       <webServer id="478cbb36-c754-45b2-a5a0-7f994b2e65b6" name="nmedaportal" url="http://nmedaportal">
         <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
+      <webServer id="24ea0a67-7086-4b55-bc85-3594b102194b" name="PCSBridgeAWS" url="http://52.14.113.214">
+        <fileTransfer host="52.14.113.214" port="22" privateKey="$USER_HOME$/Sites/GRS/Security/adjq418.pem" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
       </webServer>
     </option>
   </component>
