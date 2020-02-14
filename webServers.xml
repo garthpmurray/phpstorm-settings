@@ -1,16 +1,16 @@
 <application>
   <component name="WebServers">
     <option name="servers">
-      <webServer id="d9317ba4-40f7-485b-b935-a466e47e7841" name="BridgeSourceAWS" url="http://18.191.11.101">
-        <fileTransfer host="18.191.11.101" port="22" privateKey="$USER_HOME$/Sites/GRS/Security/grs.pem" accessType="SFTP" keyPair="true">
+      <webServer id="d9317ba4-40f7-485b-b935-a466e47e7841" name="BridgeSourceAWS" url="http://ec2-18-191-11-101.us-east-2.compute.amazonaws.com">
+        <fileTransfer host="ec2-18-191-11-101.us-east-2.compute.amazonaws.com" port="22" privateKey="$USER_HOME$/Sites/GRS/Security/grs.pem" accessType="SFTP" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
-      <webServer id="db9cd404-ff93-41ec-98fa-a8b1c2ed7b6e" name="ERMSBridgeAWS" url="http://18.222.135.39">
-        <fileTransfer host="18.222.135.39" port="22" privateKey="$USER_HOME$/Sites/GRS/Security/bridge.q418.pem" accessType="SFTP" keyPair="true">
+      <webServer id="db9cd404-ff93-41ec-98fa-a8b1c2ed7b6e" name="ERMSBridgeAWS" url="http://ec2-18-222-135-39.us-east-2.compute.amazonaws.com">
+        <fileTransfer host="ec2-18-222-135-39.us-east-2.compute.amazonaws.com" port="22" privateKey="$USER_HOME$/Sites/GRS/Security/bridge.q418.pem" accessType="SFTP" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
