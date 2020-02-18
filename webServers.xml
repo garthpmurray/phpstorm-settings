@@ -105,8 +105,8 @@
       <webServer id="478cbb36-c754-45b2-a5a0-7f994b2e65b6" name="nmedaportal" url="http://nmedaportal">
         <fileTransfer port="0" accessType="LOCAL" />
       </webServer>
-      <webServer id="24ea0a67-7086-4b55-bc85-3594b102194b" name="PCSBridgeAWS" url="http://52.14.113.214">
-        <fileTransfer host="52.14.113.214" port="22" privateKey="$USER_HOME$/Sites/GRS/Security/adjq418.pem" accessType="SFTP" keyPair="true">
+      <webServer id="24ea0a67-7086-4b55-bc85-3594b102194b" name="PCSBridgeAWS" url="http://ec2-35-170-215-24.compute-1.amazonaws.com">
+        <fileTransfer host="ec2-35-170-215-24.compute-1.amazonaws.com" port="22" privateKey="$USER_HOME$/Sites/GRS/Security/GRS Stuff/grs_pnc.pem" accessType="SFTP" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
