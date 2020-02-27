@@ -113,6 +113,9 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
+      <webServer id="df73eed6-40a4-4ea2-87cc-d150408fe527" name="ondemand.local" url="http://ondemand.local">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
     </option>
   </component>
 </application>
