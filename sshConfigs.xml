@@ -1,0 +1,14 @@
+<application>
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig host="ec2-18-191-11-101.us-east-2.compute.amazonaws.com" id="b6c5e2b8-4077-4e70-88a3-135a44e75132" keyPath="$USER_HOME$/Sites/GRS/Security/grs.pem" port="22" customName="BridgeSourceAWS" nameFormat="CUSTOM" username="ec2-user" />
+      <sshConfig host="ec2-18-222-135-39.us-east-2.compute.amazonaws.com" id="cf72dc34-a0df-4d81-a25f-62af9865350b" keyPath="$USER_HOME$/Sites/GRS/Security/bridge.q418.pem" port="22" customName="ERMSBridgeAWS" nameFormat="CUSTOM" username="grs" />
+      <sshConfig host="10.11.64.222" id="20b631d6-2971-41df-96d8-de3030039a52" keyPath="/Volumes/My Passport for Mac/SourceToad/Production/RiverShipDeployment/ssh/360sites.pem" port="22" customName="VikingSea" nameFormat="CUSTOM" username="360_sites" />
+      <sshConfig host="10.12.64.224" id="36c6be73-6b23-42d9-95fa-3527e1939c69" keyPath="/Volumes/My Passport for Mac/SourceToad/Production/RiverShipDeployment/ssh/360sites.pem" port="22" customName="VikingSky" nameFormat="CUSTOM" username="360_sites" />
+      <sshConfig authType="PASSWORD" host="10.13.64.224" id="91beaa09-4124-4779-bcc6-cb952e74e1c6" port="22" customName="VikingSun" nameFormat="CUSTOM" username="360_sites" />
+      <sshConfig authType="PASSWORD" host="10.10.8.60" id="04f68532-0f44-4c91-ac19-7a606dc21285" port="22" customName="VikingStar" nameFormat="CUSTOM" username="360_sites" />
+      <sshConfig authType="PASSWORD" host="10.14.8.60" id="cd9d6873-2511-4aef-b1a4-250717820bf1" port="22" customName="VikingOrion" nameFormat="CUSTOM" username="360_sites" />
+      <sshConfig host="ec2-35-170-215-24.compute-1.amazonaws.com" id="fdcadd09-fca2-4b90-a71a-d7ee4e914023" keyPath="$USER_HOME$/Sites/GRS/Security/GRS Stuff/q418/pncq418.pem" port="22" customName="PCSBridgeAWS" nameFormat="CUSTOM" username="ec2-user" />
+    </configs>
+  </component>
+</application>
