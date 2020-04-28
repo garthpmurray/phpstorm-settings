@@ -9,7 +9,7 @@
       <sshConfig authType="PASSWORD" host="10.10.8.60" id="04f68532-0f44-4c91-ac19-7a606dc21285" port="22" customName="VikingStar" nameFormat="CUSTOM" username="360_sites" />
       <sshConfig authType="PASSWORD" host="10.14.8.60" id="cd9d6873-2511-4aef-b1a4-250717820bf1" port="22" customName="VikingOrion" nameFormat="CUSTOM" username="360_sites" />
       <sshConfig host="ec2-35-170-215-24.compute-1.amazonaws.com" id="fdcadd09-fca2-4b90-a71a-d7ee4e914023" keyPath="$USER_HOME$/Sites/GRS/Security/GRS Stuff/q418/pncq418.pem" port="22" customName="PCSBridgeAWS" nameFormat="CUSTOM" username="ec2-user" />
-      <sshConfig host="ec2-35-170-215-24.compute-1.amazonaws.com" id="e3ccee50-40e4-422d-8405-e7f3fba51f17" keyPath="$USER_HOME$/Sites/GRS/Security/GRS Stuff/q418/pncq418.pem" port="22" customName="PCSBridgeAWS" nameFormat="CUSTOM" username="ec2-user" />
+      <sshConfig host="ec2-35-170-215-24.compute-1.amazonaws.com" id="3240339f-67cf-47d3-a8e3-530cfa369d41" keyPath="$USER_HOME$/Sites/GRS/Security/GRS Stuff/q418/pncq418.pem" port="22" customName="PCSBridgeAWS" nameFormat="CUSTOM" username="ec2-user" />
     </configs>
   </component>
 </application>
