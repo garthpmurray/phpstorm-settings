@@ -2,51 +2,45 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="d9317ba4-40f7-485b-b935-a466e47e7841" name="BridgeSourceAWS" url="http://ec2-18-191-11-101.us-east-2.compute.amazonaws.com">
-        <fileTransfer host="ec2-18-191-11-101.us-east-2.compute.amazonaws.com" port="22" privateKey="$USER_HOME$/Sites/GRS/Security/grs.pem" accessType="SFTP" keyPair="true">
+        <fileTransfer accessType="SFTP" sshConfigId="cce247c9-90b0-45d3-b5cb-6577206d7f42" sshConfig="BridgeSourceAWS">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
-          <option name="port" value="22" />
         </fileTransfer>
       </webServer>
       <webServer id="db9cd404-ff93-41ec-98fa-a8b1c2ed7b6e" name="ERMSBridgeAWS" url="http://ec2-18-222-135-39.us-east-2.compute.amazonaws.com">
-        <fileTransfer host="ec2-18-222-135-39.us-east-2.compute.amazonaws.com" port="22" privateKey="$USER_HOME$/Sites/GRS/Security/bridge.q418.pem" accessType="SFTP" keyPair="true">
+        <fileTransfer accessType="SFTP" sshConfigId="ebf4d600-1e9d-4c7c-b60c-31bd3c79b471" sshConfig="ERMSBridgeAWS">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
-          <option name="port" value="22" />
         </fileTransfer>
       </webServer>
       <webServer id="5431aea5-5c81-4b9e-b674-44f9ef4b5c14" name="VikingSea" url="http://10.11.64.222">
-        <fileTransfer host="10.11.64.222" port="22" privateKey="/Volumes/My Passport for Mac/SourceToad/Production/RiverShipDeployment/ssh/360sites.pem" rootFolder="/var/www/parent360_ship/" accessType="SFTP" keyPair="true" username="360_sites">
+        <fileTransfer rootFolder="/var/www/parent360_ship/" accessType="SFTP" sshConfigId="b9bcc92a-9770-4026-9eda-e8af1800c706" sshConfig="VikingSea" username="360_sites">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
-          <option name="port" value="22" />
         </fileTransfer>
       </webServer>
       <webServer id="0b49ee78-7a51-4540-897b-cd0fbb42cf87" name="VikingSky" url="http://10.12.64.224">
-        <fileTransfer host="10.12.64.224" port="22" privateKey="/Volumes/My Passport for Mac/SourceToad/Production/RiverShipDeployment/ssh/360sites.pem" rootFolder="/var/www/" accessType="SFTP" keyPair="true" username="360_sites">
+        <fileTransfer rootFolder="/var/www/" accessType="SFTP" sshConfigId="c4a70c47-5309-4f02-b149-488039a3d8be" sshConfig="VikingSky" username="360_sites">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
-          <option name="port" value="22" />
         </fileTransfer>
       </webServer>
       <webServer id="c21616ed-a3c1-4629-8d9f-7baf32c35382" name="VikingSun" url="http://10.13.64.224">
-        <fileTransfer host="10.13.64.224" port="22" rootFolder="/var/www/" accessType="SFTP" username="360_sites" password="dfe4df93dfeddf93dfcfdfc3dfc6dfe9dffddf98dfe0dfc9">
+        <fileTransfer rootFolder="/var/www/" accessType="SFTP" sshConfigId="467dabbe-c2e8-4eca-830f-413a7d085a5c" sshConfig="VikingSun" username="360_sites" password="dfe4df93dfeddf93dfcfdfc3dfc6dfe9dffddf98dfe0dfc9">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
-          <option name="port" value="22" />
         </fileTransfer>
       </webServer>
       <webServer id="695dcd05-d649-4237-8934-6d6ff1bc120b" name="VikingStar" url="http://10.10.8.60">
-        <fileTransfer host="10.10.8.60" port="22" rootFolder="/var/www/" accessType="SFTP" username="360_sites" password="dfe4df93dfeddf93dfcfdfc3dfc6dfe9dffddf98dfe0dfc9">
+        <fileTransfer rootFolder="/var/www/" accessType="SFTP" sshConfigId="14a81d08-04a1-4e38-8464-de2ef5c1eead" sshConfig="VikingStar" username="360_sites" password="dfe4df93dfeddf93dfcfdfc3dfc6dfe9dffddf98dfe0dfc9">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
-          <option name="port" value="22" />
         </fileTransfer>
       </webServer>
       <webServer id="df95ed2b-dfcd-482c-95a3-74d5b9e304b4" name="Viking Hotels" url="http://viking-hotels">
@@ -56,65 +50,63 @@
         <fileTransfer accessType="LOCAL" />
       </webServer>
       <webServer id="d1075743-499f-4db0-873e-f1bf31a742d3" name="BigCom" url="http://localhost">
-        <fileTransfer port="0" accessType="LOCAL" />
+        <fileTransfer accessType="LOCAL" port="0" />
       </webServer>
       <webServer id="4b312c11-17a7-498a-ab7c-957bb38bc5b4" name="360parent-rebuild" url="http://360parent-rebuild">
-        <fileTransfer port="0" accessType="LOCAL" />
+        <fileTransfer accessType="LOCAL" port="0" />
       </webServer>
       <webServer id="6a5d729f-607e-45f0-8a21-809526ae6eb6" name="dev-ops" url="http://dev-ops">
-        <fileTransfer port="0" accessType="LOCAL" />
+        <fileTransfer accessType="LOCAL" port="0" />
       </webServer>
       <webServer id="26b2795a-9139-4c66-b7e3-032c524764eb" name="bootstrap.docker" url="http://bootstrap.docker">
-        <fileTransfer port="0" accessType="LOCAL" />
+        <fileTransfer accessType="LOCAL" port="0" />
       </webServer>
       <webServer id="3b0641ab-926d-454b-81c3-9cd44d4bc024" name="core.docker" url="http://core.docker">
-        <fileTransfer port="0" accessType="LOCAL" />
+        <fileTransfer accessType="LOCAL" port="0" />
       </webServer>
       <webServer id="e4454a85-dac6-443d-9ae7-f2621053462b" name="core2" url="http://core2.docker">
-        <fileTransfer port="0" accessType="LOCAL" />
+        <fileTransfer accessType="LOCAL" port="0" />
       </webServer>
       <webServer id="6b6fa1b6-4974-4978-9c07-d2250ec0d0c4" name="http://satellite.docker/" url="http://satellite.docker/">
-        <fileTransfer port="0" accessType="LOCAL" />
+        <fileTransfer accessType="LOCAL" port="0" />
       </webServer>
       <webServer id="8b0efd47-36ec-49ec-bd6d-3d2a4752b4b0" name="VikingOrion" url="http://10.14.8.60">
-        <fileTransfer host="10.14.8.60" port="22" rootFolder="/var/www/" accessType="SFTP" username="360_sites">
+        <fileTransfer rootFolder="/var/www/" accessType="SFTP" sshConfigId="84d3603c-39e3-4db0-94c1-e2844f682ead" sshConfig="VikingOrion" username="360_sites">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
-          <option name="port" value="22" />
         </fileTransfer>
       </webServer>
       <webServer id="ecce6239-bc53-4be7-b9ab-842f36eae7a0" name="genome.docker" url="http://genome.docker">
-        <fileTransfer port="0" accessType="LOCAL" />
+        <fileTransfer accessType="LOCAL" port="0" />
       </webServer>
       <webServer id="4994dd5b-e1d6-4dfa-bf1d-e9ded3ba85df" name="claravel.docker" url="http://claravel.docker">
-        <fileTransfer port="0" accessType="LOCAL" />
+        <fileTransfer accessType="LOCAL" port="0" />
       </webServer>
       <webServer id="05f438b2-b3db-44fd-87ff-55745b36b8bb" name="advisorsacademy" url="http://localhost">
-        <fileTransfer port="0" accessType="LOCAL" />
+        <fileTransfer accessType="LOCAL" port="0" />
       </webServer>
       <webServer id="02c81268-6648-4f12-b946-df4c43e5c4b0" name="metricslegacy" url="http://metricslegacy">
-        <fileTransfer port="0" accessType="LOCAL" />
+        <fileTransfer accessType="LOCAL" port="0" />
       </webServer>
       <webServer id="7438a717-9bd3-41e9-b575-5cda5145abf0" name="SoloClientPortal" url="http://soloclientportal/">
-        <fileTransfer port="0" accessType="LOCAL" />
+        <fileTransfer accessType="LOCAL" port="0" />
       </webServer>
       <webServer id="1e2f72a9-a63c-42b0-9b8c-41291bc94c08" name="nmeda" url="http://nmeda">
-        <fileTransfer port="0" accessType="LOCAL" />
+        <fileTransfer accessType="LOCAL" port="0" />
       </webServer>
       <webServer id="478cbb36-c754-45b2-a5a0-7f994b2e65b6" name="nmedaportal" url="http://nmedaportal">
-        <fileTransfer port="0" accessType="LOCAL" />
+        <fileTransfer accessType="LOCAL" port="0" />
       </webServer>
       <webServer id="24ea0a67-7086-4b55-bc85-3594b102194b" name="PCSBridgeAWS" url="http://ec2-35-170-215-24.compute-1.amazonaws.com">
-        <fileTransfer host="ec2-35-170-215-24.compute-1.amazonaws.com" port="22" privateKey="$USER_HOME$/Sites/GRS/Security/GRS Stuff/q418/pncq418.pem" accessType="SFTP" keyPair="true">
+        <fileTransfer accessType="SFTP" host="ec2-35-170-215-24.compute-1.amazonaws.com" port="22" sshConfigId="58c3da34-ad65-41fc-aeef-42476f37db21" sshConfig="PCSBridgeAWS" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
-          <option name="port" value="22" />
         </fileTransfer>
       </webServer>
       <webServer id="df73eed6-40a4-4ea2-87cc-d150408fe527" name="ondemand.local" url="http://ondemand.local">
-        <fileTransfer port="0" accessType="LOCAL" />
+        <fileTransfer accessType="LOCAL" port="0" />
       </webServer>
     </option>
   </component>
