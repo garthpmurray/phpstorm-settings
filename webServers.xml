@@ -30,7 +30,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="c21616ed-a3c1-4629-8d9f-7baf32c35382" name="VikingSun" url="http://10.13.64.224">
-        <fileTransfer rootFolder="/var/www/" accessType="SFTP" sshConfigId="467dabbe-c2e8-4eca-830f-413a7d085a5c" sshConfig="VikingSun" username="360_sites" password="dfe4df93dfeddf93dfcfdfc3dfc6dfe9dffddf98dfe0dfc9">
+        <fileTransfer rootFolder="/var/www/" accessType="SFTP" host="10.13.64.224" port="22" sshConfigId="91beaa09-4124-4779-bcc6-cb952e74e1c6" sshConfig="VikingSun" username="360_sites" password="dfe4df93dfeddf93dfcfdfc3dfc6dfe9dffddf98dfe0dfc9">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>

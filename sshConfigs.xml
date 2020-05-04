@@ -8,7 +8,7 @@
       <sshConfig authType="PASSWORD" host="10.13.64.224" id="91beaa09-4124-4779-bcc6-cb952e74e1c6" port="22" customName="VikingSun" nameFormat="CUSTOM" username="360_sites" />
       <sshConfig authType="PASSWORD" host="10.10.8.60" id="04f68532-0f44-4c91-ac19-7a606dc21285" port="22" customName="VikingStar" nameFormat="CUSTOM" username="360_sites" />
       <sshConfig authType="PASSWORD" host="10.14.8.60" id="cd9d6873-2511-4aef-b1a4-250717820bf1" port="22" customName="VikingOrion" nameFormat="CUSTOM" username="360_sites" />
-      <sshConfig host="ec2-35-170-215-24.compute-1.amazonaws.com" id="fdcadd09-fca2-4b90-a71a-d7ee4e914023" keyPath="$USER_HOME$/Sites/GRS/Security/GRS Stuff/q418/pncq418.pem" port="22" customName="PCSBridgeAWS" nameFormat="CUSTOM" username="ec2-user" />
+      <sshConfig host="ec2-35-170-215-24.compute-1.amazonaws.com" id="58c3da34-ad65-41fc-aeef-42476f37db21" keyPath="$USER_HOME$/Sites/GRS/Security/GRS Stuff/q418/pncq418.pem" port="22" customName="PCSBridgeAWS" nameFormat="CUSTOM" username="ec2-user" />
     </configs>
   </component>
 </application>
