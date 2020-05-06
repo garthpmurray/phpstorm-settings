@@ -10,12 +10,12 @@
       <interpreter id="90915dbc-afb1-436d-bd89-95b53346b40d" name="MampPhp7" home="/Applications/MAMP/bin/php/php7.0.0/bin/php" debugger_id="php.debugger.XDebug" />
       <interpreter id="da08b1d1-aff2-4620-ac2c-de804edabafc" name="MampPhp7.0.31" home="/Applications/MAMP/bin/php/php7.0.31/bin/php" debugger_id="php.debugger.XDebug" />
       <interpreter id="902fa1fa-5d32-4149-a373-994e9fd0ce63" name="workspace" home="docker-compose://DATA" debugger_id="php.debugger.XDebug">
-        <remote_data DOCKER_ACCOUNT_NAME="Docker2" DOCKER_COMPOSE_SERVICE_NAME="workspace" DOCKER_REMOTE_PROJECT_PATH="/opt/project" INTERPRETER_PATH="php" HELPERS_PATH="/opt/.phpstorm_helpers" INITIALIZED="false" VALID="true" RUN_AS_ROOT_VIA_SUDO="false">
+        <remote_data INTERPRETER_PATH="php" HELPERS_PATH="/opt/.phpstorm_helpers" INITIALIZED="false" VALID="true" RUN_AS_ROOT_VIA_SUDO="false" DOCKER_ACCOUNT_NAME="Docker2" DOCKER_COMPOSE_SERVICE_NAME="workspace" DOCKER_REMOTE_PROJECT_PATH="/opt/project">
+          <type_data command="EXEC" />
           <dockerComposeConfigurationPaths>
             <item value="$USER_HOME$/Sites/laradock/docker-compose.yml" />
           </dockerComposeConfigurationPaths>
           <envs />
-          <type_data command="EXEC" />
         </remote_data>
       </interpreter>
     </interpreters>
