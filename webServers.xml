@@ -2,28 +2,28 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="d9317ba4-40f7-485b-b935-a466e47e7841" name="BridgeSourceAWS" url="http://ec2-18-191-11-101.us-east-2.compute.amazonaws.com">
-        <fileTransfer accessType="SFTP" sshConfigId="cce247c9-90b0-45d3-b5cb-6577206d7f42" sshConfig="BridgeSourceAWS">
+        <fileTransfer accessType="SFTP" host="ec2-18-191-11-101.us-east-2.compute.amazonaws.com" port="22" sshConfigId="b6c5e2b8-4077-4e70-88a3-135a44e75132" sshConfig="BridgeSourceAWS" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
         </fileTransfer>
       </webServer>
       <webServer id="db9cd404-ff93-41ec-98fa-a8b1c2ed7b6e" name="ERMSBridgeAWS" url="http://ec2-18-222-135-39.us-east-2.compute.amazonaws.com">
-        <fileTransfer accessType="SFTP" sshConfigId="ebf4d600-1e9d-4c7c-b60c-31bd3c79b471" sshConfig="ERMSBridgeAWS">
+        <fileTransfer accessType="SFTP" host="ec2-18-222-135-39.us-east-2.compute.amazonaws.com" port="22" sshConfigId="cf72dc34-a0df-4d81-a25f-62af9865350b" sshConfig="ERMSBridgeAWS" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
         </fileTransfer>
       </webServer>
       <webServer id="5431aea5-5c81-4b9e-b674-44f9ef4b5c14" name="VikingSea" url="http://10.11.64.222">
-        <fileTransfer rootFolder="/var/www/parent360_ship/" accessType="SFTP" sshConfigId="b9bcc92a-9770-4026-9eda-e8af1800c706" sshConfig="VikingSea" username="360_sites">
+        <fileTransfer rootFolder="/var/www/parent360_ship/" accessType="SFTP" host="10.11.64.222" port="22" sshConfigId="20b631d6-2971-41df-96d8-de3030039a52" sshConfig="VikingSea" keyPair="true" username="360_sites">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
         </fileTransfer>
       </webServer>
       <webServer id="0b49ee78-7a51-4540-897b-cd0fbb42cf87" name="VikingSky" url="http://10.12.64.224">
-        <fileTransfer rootFolder="/var/www/" accessType="SFTP" sshConfigId="c4a70c47-5309-4f02-b149-488039a3d8be" sshConfig="VikingSky" username="360_sites">
+        <fileTransfer rootFolder="/var/www/" accessType="SFTP" host="10.12.64.224" port="22" sshConfigId="36c6be73-6b23-42d9-95fa-3527e1939c69" sshConfig="VikingSky" keyPair="true" username="360_sites">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
@@ -37,7 +37,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="695dcd05-d649-4237-8934-6d6ff1bc120b" name="VikingStar" url="http://10.10.8.60">
-        <fileTransfer rootFolder="/var/www/" accessType="SFTP" sshConfigId="14a81d08-04a1-4e38-8464-de2ef5c1eead" sshConfig="VikingStar" username="360_sites" password="dfe4df93dfeddf93dfcfdfc3dfc6dfe9dffddf98dfe0dfc9">
+        <fileTransfer rootFolder="/var/www/" accessType="SFTP" host="10.10.8.60" port="22" sshConfigId="04f68532-0f44-4c91-ac19-7a606dc21285" sshConfig="VikingStar" username="360_sites" password="dfe4df93dfeddf93dfcfdfc3dfc6dfe9dffddf98dfe0dfc9">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
@@ -71,7 +71,7 @@
         <fileTransfer accessType="LOCAL" port="0" />
       </webServer>
       <webServer id="8b0efd47-36ec-49ec-bd6d-3d2a4752b4b0" name="VikingOrion" url="http://10.14.8.60">
-        <fileTransfer rootFolder="/var/www/" accessType="SFTP" sshConfigId="84d3603c-39e3-4db0-94c1-e2844f682ead" sshConfig="VikingOrion" username="360_sites">
+        <fileTransfer rootFolder="/var/www/" accessType="SFTP" host="10.14.8.60" port="22" sshConfigId="cd9d6873-2511-4aef-b1a4-250717820bf1" sshConfig="VikingOrion" username="360_sites">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
