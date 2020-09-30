@@ -99,7 +99,7 @@
         <fileTransfer accessType="LOCAL" port="0" />
       </webServer>
       <webServer id="24ea0a67-7086-4b55-bc85-3594b102194b" name="PCSBridgeAWS" url="http://ec2-35-170-215-24.compute-1.amazonaws.com">
-        <fileTransfer accessType="SFTP" host="ec2-18-222-135-39.us-east-2.compute.amazonaws.com" port="22" sshConfigId="cf72dc34-a0df-4d81-a25f-62af9865350b" sshConfig="ERMSBridgeAWS" keyPair="true">
+        <fileTransfer accessType="SFTP" host="ec2-35-170-215-24.compute-1.amazonaws.com" port="22" sshConfigId="58c3da34-ad65-41fc-aeef-42476f37db21" sshConfig="PCSBridgeAWS" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
