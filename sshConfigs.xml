@@ -28,6 +28,9 @@
       <sshConfig host="ec2-3-14-70-37.us-east-2.compute.amazonaws.com" id="58594aa9-83bd-4a8b-94f0-8cf0d637493d" keyPath="$USER_HOME$/Sites/GRS/Security/GRS Stuff/wordpress.pem" port="22" customName="GRS-Wordpress Site" nameFormat="CUSTOM" username="ubuntu">
         <option name="customName" value="GRS-Wordpress Site" />
       </sshConfig>
+      <sshConfig host="ec2-18-222-24-228.us-east-2.compute.amazonaws.com" id="da93f7e4-86a2-4491-8372-045c351d83c6" keyPath="$USER_HOME$/Sites/GRS/Security/JetBrains-development.pem" port="22" customName="Jetbrains-GRS" nameFormat="CUSTOM" username="ubuntu">
+        <option name="customName" value="Jetbrains-GRS" />
+      </sshConfig>
     </configs>
   </component>
 </application>
