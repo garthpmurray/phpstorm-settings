@@ -22,7 +22,7 @@
       <sshConfig authType="PASSWORD" host="10.14.8.60" id="cd9d6873-2511-4aef-b1a4-250717820bf1" port="22" customName="VikingOrion" nameFormat="CUSTOM" username="360_sites">
         <option name="customName" value="VikingOrion" />
       </sshConfig>
-      <sshConfig host="ec2-35-170-215-24.compute-1.amazonaws.com" id="58c3da34-ad65-41fc-aeef-42476f37db21" keyPath="$USER_HOME$/Sites/GRS/Security/GRS Stuff/q418/pncq418.pem" port="22" customName="PCSBridgeAWS" nameFormat="CUSTOM" username="ec2-user">
+      <sshConfig host="ec2-35-170-215-24.compute-1.amazonaws.com" id="58c3da34-ad65-41fc-aeef-42476f37db21" keyPath="$USER_HOME$/Sites/GRS/Security/GRS Stuff/q418/pncq418.pem" port="22" customName="PCSBridgeAWS" nameFormat="CUSTOM" username="grs">
         <option name="customName" value="PCSBridgeAWS" />
       </sshConfig>
       <sshConfig host="ec2-3-14-70-37.us-east-2.compute.amazonaws.com" id="58594aa9-83bd-4a8b-94f0-8cf0d637493d" keyPath="$USER_HOME$/Sites/GRS/Security/GRS Stuff/wordpress.pem" port="22" customName="GRS-Wordpress Site" nameFormat="CUSTOM" username="ubuntu">
