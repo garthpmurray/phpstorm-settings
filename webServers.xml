@@ -108,6 +108,9 @@
       <webServer id="df73eed6-40a4-4ea2-87cc-d150408fe527" name="ondemand.local" url="http://ondemand.local">
         <fileTransfer accessType="LOCAL" port="0" />
       </webServer>
+      <webServer id="5bd6fb00-f329-49a0-840d-85315ac847a3" name="ondemand-web.local" url="http://ondemand-web.local">
+        <fileTransfer accessType="LOCAL" port="0" />
+      </webServer>
     </option>
   </component>
 </application>
