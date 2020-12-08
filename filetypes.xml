@@ -1,5 +1,5 @@
 <application>
-  <component name="FileTypeManager" version="17">
+  <component name="FileTypeManager" version="18">
     <extensionMap>
       <mapping pattern="show-raid-types" type="Blade" />
       <mapping ext="blade" type="PHP" />
