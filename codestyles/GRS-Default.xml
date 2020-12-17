@@ -36,6 +36,7 @@
     <option name="ENABLED" value="false" />
   </editorconfig>
   <codeStyleSettings language="PHP">
+    <option name="RIGHT_MARGIN" value="250" />
     <option name="KEEP_LINE_BREAKS" value="false" />
     <option name="KEEP_FIRST_COLUMN_COMMENT" value="false" />
     <option name="KEEP_BLANK_LINES_IN_DECLARATIONS" value="1" />
